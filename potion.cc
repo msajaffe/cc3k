@@ -16,7 +16,6 @@ Floor * f = Floor::getInstance();
 void Potion::use(){
 	std::cout << "0";
 	if(!used){ 
-		std::cout << "FUCK ALL NIGGERS";
 		effect();	//only apply effect if its not used
 		Entity * empty = new Entity(getX(), getY());	//replace the potion's position in the map with an empty entity
 		fl->replace(empty, getX(), getY(), true);	//must keep used potions pointer somewhere....CHAMBER
