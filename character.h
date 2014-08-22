@@ -18,12 +18,6 @@ public:
 		HP = Atk = Def = 0;
 		race = "";
 	}
-	//void move(std::string move); //	moves the character along the screen
-		//notifies other characters about attack range
-		//notifies potions about use/stopUse
-		//notifies potions of availability of use
-	///*virtual*/ //void attack(Character &); //character attacks another character 
-		// have to subtract the amount of stats lost of other character
 	int getAtk() { return Atk; }
 	int getDef() { return Def; }
 	int getHP() { return HP; }
